@@ -1,0 +1,11 @@
+<% @ideas.each do |idea|%>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-4 col-md-offset-4">
+      <a href="/idea/<%= idea.id %>" class="thumbnail">
+        <p><%= idea.title%>
+      </p>
+    </div>
+  </div>
+  </div>
+<% end %>
